@@ -8,8 +8,11 @@
 <body>
 
     <h1>Calculadora fullstack!</h1>
-    <form action="calculadora.php" method="post">    
+    <form action="calculadora.php" method="post">
+        <label>Numero 1</label>    
         <input type="text" name="numero1" id=""></input>
+
+        <label>Numero 2</label>    
         <input type="text" name="numero2" id=""></input>
 
         <input type="submit" value="Calcular"></input>
